@@ -24,6 +24,16 @@ $!Space::Send("#{LWin down}s{LWin up}")
     }
 }
 
+; Win + W: 打开 Firefox
+#w::
+{
+    try {
+        Run "wechat.exe"
+    } catch {
+        Run "C:\Program Files\Tencent\Weixin\Weixin.exe"
+    }
+}
+
 ; Win + C: 启动/切换/隐藏 Clash
 #c::
 {
